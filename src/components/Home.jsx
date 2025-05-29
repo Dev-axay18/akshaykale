@@ -13,46 +13,46 @@ const Home = () => {
 
   const funnyQuotes = [
     "I love deadlines. I love the whooshing sound they make as they fly by. 💨",
-  "My code runs perfectly... until someone uses it. 🧨",
-  "Sleep is a luxury. I’ll rest when the build passes. 🛠️",
-  "Welcome to programming: where you fix one bug and summon three more. 🪲🪲🪲",
-  "I don’t need therapy. I just need my code to compile. 😶‍🌫️",
-  "My code works… but I don't know why. And that terrifies me. 👻",
-  "The only thing more dead than my social life is my production server. ⚰️",
-  "If you stare at the code long enough, the bugs stare back. 🧿",
-  "I write code like I live my life — full of regrets and missing semicolons. 😬",
-  "Every time I write a ‘quick fix’, a software engineer dies inside. 🫠",
-  "Some people drink to forget. I refactor legacy code. 🍷",
-  "Behind every great app is a terrified developer praying it doesn’t crash. 🙏",
-  "You think horror movies are scary? Try merging a 6-month-old Git branch. 🔪",
-  "The only thing that dies more than my hopes is my test coverage. 💀",
-  "I didn’t choose the debug life. The debug life chose me… and won’t let go. 👾",
-  "Stack Overflow is my only friend. 🧑‍💻",
-  "My app doesn’t crash — it just starts performing interpretive dance. 💃",
-  "That moment when you realize the bug... is you. 🪞",
-  "I treat my warnings like I treat my emotions — I suppress them. 😐",
-  "I thought I fixed the bug. I only moved it to production. 🧯",
-  "Programming: the art of turning caffeine into stack traces. ☕",
-  "I asked for a sign from the universe. It gave me a segmentation fault. 🧠",
-  "The only thing shorter than my attention span is my unit tests. 🧪",
-  "Coding is 10% writing code and 90% cursing at it. 🤬",
-  "My backlog has more unresolved issues than I do. 🗂️",
-  "I don't fear failure. I deploy it regularly. 📦",
-  "I don't make mistakes. I create future debugging opportunities. 🛠️",
-  "Every feature you add is a new way for your app to die. ☠️",
-  "Sometimes I feel like I write code just to watch it suffer. 🧨",
-  "Real devs test in production. Real devs cry in production. 🥲",
-  "Deleting code is like deleting memories — painful but necessary. 🧽",
-  "I build things. Then I break them. Then I blame the compiler. 🖥️",
-  "The build is green. But at what cost? 🔥",
-  "You either die a junior dev, or live long enough to rewrite everything in TypeScript. 🦇",
-  "The bugs were ghosts all along. 👻",
-  "I stare into the abyss. It logs a null reference. 🕳️",
-  "Silence is golden... unless you're waiting for your code to compile. 🔕",
-  "One does not simply write bug-free code. ❌",
-  "I don’t always test my code, but when I do, it’s in production. 🎯",
-  "When I said I wanted a crash course in coding... I didn’t mean this. 🚗💥",
-  "If The code Works Don't Touch It 😐"
+    "My code runs perfectly... until someone uses it. 🧨",
+    "Sleep is a luxury. I'll rest when the build passes. 🛠️",
+    "Welcome to programming: where you fix one bug and summon three more. 🪲🪲🪲",
+    "I don't need therapy. I just need my code to compile. 😶‍🌫️",
+    "My code works… but I don't know why. And that terrifies me. 👻",
+    "The only thing more dead than my social life is my production server. ⚰️",
+    "If you stare at the code long enough, the bugs stare back. 🧿",
+    "I write code like I live my life — full of regrets and missing semicolons. 😬",
+    "Every time I write a 'quick fix', a software engineer dies inside. 🫠",
+    "Some people drink to forget. I refactor legacy code. 🍷",
+    "Behind every great app is a terrified developer praying it doesn't crash. 🙏",
+    "You think horror movies are scary? Try merging a 6-month-old Git branch. 🔪",
+    "The only thing that dies more than my hopes is my test coverage. 💀",
+    "I didn't choose the debug life. The debug life chose me… and won't let go. 👾",
+    "Stack Overflow is my only friend. 🧑‍💻",
+    "My app doesn't crash — it just starts performing interpretive dance. 💃",
+    "That moment when you realize the bug... is you. 🪞",
+    "I treat my warnings like I treat my emotions — I suppress them. 😐",
+    "I thought I fixed the bug. I only moved it to production. 🧯",
+    "Programming: the art of turning caffeine into stack traces. ☕",
+    "I asked for a sign from the universe. It gave me a segmentation fault. 🧠",
+    "The only thing shorter than my attention span is my unit tests. 🧪",
+    "Coding is 10% writing code and 90% cursing at it. 🤬",
+    "My backlog has more unresolved issues than I do. 🗂️",
+    "I don't fear failure. I deploy it regularly. 📦",
+    "I don't make mistakes. I create future debugging opportunities. 🛠️",
+    "Every feature you add is a new way for your app to die. ☠️",
+    "Sometimes I feel like I write code just to watch it suffer. 🧨",
+    "Real devs test in production. Real devs cry in production. 🥲",
+    "Deleting code is like deleting memories — painful but necessary. 🧽",
+    "I build things. Then I break them. Then I blame the compiler. 🖥️",
+    "The build is green. But at what cost? 🔥",
+    "You either die a junior dev, or live long enough to rewrite everything in TypeScript. 🦇",
+    "The bugs were ghosts all along. 👻",
+    "I stare into the abyss. It logs a null reference. 🕳️",
+    "Silence is golden... unless you're waiting for your code to compile. 🔕",
+    "One does not simply write bug-free code. ❌",
+    "I don't always test my code, but when I do, it's in production. 🎯",
+    "When I said I wanted a crash course in coding... I didn't mean this. 🚗💥",
+    "If The code Works Don't Touch It 😐"
   ]
 
   const fadeInUp = {
@@ -114,7 +114,7 @@ const Home = () => {
               variants={fadeInUp}
               className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-12"
             >
-             I build modern web applications focused on delivering exceptional user experiences through clean, efficient code. Let’s work together to create something impactful and innovative.
+              I build modern web applications focused on delivering exceptional user experiences through clean, efficient code. Let's work together to create something impactful and innovative.
             </motion.p>
 
             <motion.div
@@ -172,15 +172,17 @@ const Home = () => {
                 )}
               </AnimatePresence>
 
-              <motion.button
-                onClick={handleResumeClick}
+              <motion.a
+                href="https://drive.google.com/file/d/1V3D9rYXQ-LC4L6j6JA3CFykTa2eYzn7r/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="inline-flex items-center px-6 py-3 border border-sky-500 text-base font-medium rounded-md text-sky-500 hover:bg-sky-500/10 transition-colors duration-300"
               >
                 <FaFileAlt className="mr-2" />
                 Resume
-              </motion.button>
+              </motion.a>
             </motion.div>
           </motion.div>
         </div>
