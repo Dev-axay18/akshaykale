@@ -67,7 +67,7 @@ const Navbar = () => {
               whileHover={{ scale: 1.05 }}
               className="text-2xl font-bold text-sky-500 hover:text-sky-400 transition-colors"
             >
-              Akshay 
+              A.K.
             </motion.span>
           </Link>
 
