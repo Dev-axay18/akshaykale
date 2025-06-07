@@ -5,7 +5,6 @@ import resume from '../assets/resume.pdf'
 import AnimatedRoles from './AnimatedRoles'
 import ResumeModal from './ResumeModal'
 import { useState } from 'react'
-import InteractiveElement from './InteractiveRobot'
 
 const Home = () => {
   const [isResumeOpen, setIsResumeOpen] = useState(false)
@@ -209,7 +208,7 @@ const Home = () => {
           </motion.div>
         </motion.div>
       </div>
-      <InteractiveElement />
+    
       {/* Resume Modal */}
       <ResumeModal
         isOpen={isResumeOpen}
