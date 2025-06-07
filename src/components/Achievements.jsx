@@ -138,9 +138,20 @@ const Achievements = () => {
     },
     {
       type: 'certificate',
+      title: 'Certificate of Completion',
+      issuer: 'Bluestock Fintech',
+      date: '2025',
+      icon: <FaCertificate className="text-sky-500" />,
+      images: [
+        '/certificates/Certificate Of Completion And Evaluation -1.jpg',
+        '/certificates/Certificate Of Completion And Evaluation -2.jpg'
+      ]
+    },
+    {
+      type: 'certificate',
       title: 'AWS Virtual Simulation Certificate',
       issuer: 'Amazon Web Services',
-      date: '2024',
+      date: '2025',
       icon: <FaCertificate className="text-sky-500" />,
       images: ['/certificates/AWS Virtual Simulation Certification.jpg']
     },
@@ -148,7 +159,7 @@ const Achievements = () => {
       type: 'certificate',
       title: 'Cyber Job Simulation Certificate',
       issuer: 'Cybersecurity Training',
-      date: '2024',
+      date: '2025',
       icon: <FaCertificate className="text-sky-500" />,
       images: ['/certificates/Cyber Job Simulation Certification.jpg']
     },
@@ -156,7 +167,7 @@ const Achievements = () => {
       type: 'certificate',
       title: 'Udemy Course Certificate',
       issuer: 'Udemy',
-      date: '2024',
+      date: '2025',
       icon: <FaCertificate className="text-sky-500" />,
       images: ['/certificates/Udemy Course Cert.jpg']
     },
@@ -164,7 +175,7 @@ const Achievements = () => {
       type: 'certificate',
       title: 'CodeAlpha DevOps Certificate',
       issuer: 'CodeAlpha',
-      date: '2024',
+      date: '2025',
       icon: <FaCertificate className="text-sky-500" />,
       images: ['/certificates/CodeAlpha DevOps Cert -1.jpg']
     }
